@@ -1,7 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
     <style>
-        
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+a:hover {
+  color: rgb(214, 237, 248);
+}
+
+nav {
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-right: 35px;
+}
+
+ul {
+  display: flex;
+}
+
+        nav {
+  width: 100%;
+  height: 70px;
+  background-color: dimgray;
+}
         
         body{
             background-color:white;
@@ -14,16 +47,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>自分の勉強ノート</title>
+    <title>勉強ノートへようこそ</title>
 </head>
 <body>
-    <h1><mark>自分の勉強ノート</mark></h1>
-
-    <div style="height:12px;">
-        <span style="margin-left:8px; padding:6px 10px; background:#ff9933; color:#ffffff; font-weight:bold;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;">1,自分が勉強した記録のURL</span>
-        </div>
-        <div style="border:2px solid #ff9933; padding:25px 12px 10px; font-size:0.85em;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;">
-            <a href="https://pipi-youtube.github.io/eikyurensyuban/">・いろいろなものが詰まっているページ</a>
-        </div>
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/qpcmy/Desktop/HTML%E3%81%A8CSS%E3%81%A8PHP%E3%81%A8Javascript/%E5%8B%89%E5%BC%B7%E5%B1%A5%E6%AD%B4.html#">HOME</a></li>
+            <li><a href="file:///C:/Users/qpcmy/Desktop/HTML%E3%81%A8CSS%E3%81%A8PHP%E3%81%A8Javascript/%E5%8B%89%E5%BC%B7%E5%B1%A5%E6%AD%B4URL.html">勉強ノートのURL</a></li>
+            <li><a href="https://www.youtube.com/channel/UCX6ggBl039ZGAlOz8E0jfgQ">YOUTUBE</a></li>
+            <li><a href="https://profile.ameba.jp/me">ブログ</a></li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdOprUhR2TnW2byq_V5lX4IHkF_QvPeUGP9DFLx_D4AER6_ZQ/viewform?usp=sf_link">デバッグ</a></li>
+        </ul>
+      </nav>
+<br>
+<br>
+<br>
+    <h1><mark>勉強ノートへようこそ</mark></h1>
+    <p>このサイトには、僕がHTMLとCSSとjavascriptなどの勉強をした<font color=red>履歴</font>が入っています</p>
+    <p>現在は勉強した履歴が少ないですが、これから増えていく方針です</p>
+    <h2><mark>上のメニューバーの説明</mark></h2>
+    <div style="border: 3px solid #ff9933; box-shadow: 5px 5px 5px #AAA;">
+    <p>・<font color=red>HOME</font>を押すとこのページに戻ってきます</p>
+        <p>・<font color=red>勉強ノートのURL</font>をおせば勉強した履歴を見ることができます</p>
+        <p>・<font color=red>YOUTUBE</font>を押せば僕のYouTubeのプロフィールに移動します</p>
+        <p>・<font color=red>ブログ</font>を押すと自分のブログのプロフィールに移動します</p>
+        <p>・<font color=red>デバッグ</font>を押すとこのページのお問い合わせができます</p>
+    </div>
 </body>
 </html>
